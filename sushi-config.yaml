@@ -5,16 +5,16 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.pl.imaging
 canonical: http://hl7.org.pl/fhir/ig/pl-imaging
-name: .
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
+name: hl7.fhir.pl.imaging.r5
+title: Polska specyfikacja standardu HL7 FHIR dla diagnostyki obrazowej (HL7 FHIR PL Imaging)
+description: Polska specyfikacja standardu HL7 FHIR dla diagnostyki obrazowej (HL7 FHIR PL Imaging)
 status: draft # draft | active | retired | unknown
 version: 0.1.0
-fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
+fhirVersion: 5.0.0
 copyrightYear: 2025+
 releaseLabel: ci-build
-# license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
-# jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+license: CC0-1.0
+jurisdiction: urn:iso:std:iso:3166#PL "Poland"
 publisher:
   name: HL7 Poland
   url: http://hl7.org.pl
@@ -24,12 +24,9 @@ publisher:
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
 #
-# dependencies:
-#   hl7.fhir.us.core: 3.1.0
-#   hl7.fhir.us.mcode:
-#     id: mcode
-#     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
-#     version: 1.0.0
+dependencies:
+  hl7.fhir.eu.extensions: 0.1.0
+  hl7.fhir.pl.base.r5: 0.1.0
 #
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
@@ -43,9 +40,11 @@ publisher:
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
 #
-# pages:
-#   index.md:
-#     title: Example Home
+pages:
+  index.md:
+    title: Strona główna
+  model.md:
+    title: Model logiczny
 #   implementation.xml:
 #   examples.xml:
 #     title: Examples Overview
@@ -75,8 +74,9 @@ publisher:
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
-  Home: index.html
-  Artifacts: artifacts.html
+  Strona główna: index.html
+  Model logiczny: model.html
+  Definicje: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
