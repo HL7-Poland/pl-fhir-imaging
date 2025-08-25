@@ -9,7 +9,7 @@ name: hl7.fhir.pl.imaging.r5
 title: Polska specyfikacja standardu HL7 FHIR dla diagnostyki obrazowej (HL7 FHIR PL Imaging)
 description: Polska specyfikacja standardu HL7 FHIR dla diagnostyki obrazowej (HL7 FHIR PL Imaging)
 status: draft # draft | active | retired | unknown
-version: 0.1.0
+version: 0.1.1
 fhirVersion: 5.0.0
 copyrightYear: 2025+
 releaseLabel: ci-build
