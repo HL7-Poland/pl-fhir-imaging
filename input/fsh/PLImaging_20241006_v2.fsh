@@ -21,12 +21,12 @@ Description: "Słownik wartości natężenia pola magnetycznego dla skanera MRI"
 * #30 "3T"
 * #70 "7T"
 
-ValueSet: PLImagingRadiologyPlaybookConceptVS
-Id: pl-imaging-radiology-playbook-concept-vs
-Title: "Zbiór wartości kodów Radiology Playbook"
-Description: "Zbiór wartości kodów ze słownika LOINC/RSNA Radiology Playbook, które są/mogą być używane w Polsce"
-* ^version = "0.0.1"
-* include codes from system $radiology-playbook // To be limited in the future
+// ValueSet: PLImagingRadiologyPlaybookConceptVS
+// Id: pl-imaging-radiology-playbook-concept-vs
+// Title: "Zbiór wartości kodów Radiology Playbook"
+// Description: "Zbiór wartości kodów ze słownika LOINC/RSNA Radiology Playbook, które są/mogą być używane w Polsce"
+// * ^version = "0.0.1"
+// * include codes from system $radiology-playbook // To be limited in the future
 
 ValueSet: PLImagingMRIScannerFieldStrengthVS
 Id: pl-imaging-mriScannerFieldStrength-vs
