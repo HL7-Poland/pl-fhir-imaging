@@ -6,10 +6,10 @@
 id: hl7.fhir.pl.imaging
 canonical: http://hl7.org.pl/fhir/ig/pl-imaging
 name: hl7.fhir.pl.imaging.r5
-title: Polska specyfikacja standardu HL7 FHIR dla diagnostyki obrazowej (HL7 FHIR PL Imaging)
+title: Polska specyfikacja HL7 FHIR dla diagnostyki obrazowej (HL7 FHIR PL Imaging)
 description: Polska specyfikacja standardu HL7 FHIR dla diagnostyki obrazowej (HL7 FHIR PL Imaging)
 status: draft # draft | active | retired | unknown
-version: 0.1.1
+version: 0.1.2
 fhirVersion: 5.0.0
 copyrightYear: 2025+
 releaseLabel: ci-build
