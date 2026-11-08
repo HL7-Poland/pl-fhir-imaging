@@ -27,7 +27,6 @@ Alias: $ids-simc = http://hl7.org.pl/fhir/NamingSystem/teryt-simc
 // UV Terminology
 Alias: $sct = http://snomed.info/sct
 Alias: $loinc = http://loinc.com
-// Alias: $radiology-playbook = http://fhir.loinc.org/CodeSystem/loinc-rsna-radiology-playbook
 Alias: $bcp-47 = urn:ietf:bcp:47
 Alias: $ucum = http://unitsofmeasure.org
 Alias: $fhir-document-type = http://hl7.org/fhir/ValueSet/doc-typecodes
@@ -52,5 +51,3 @@ Alias: $iso21090-ADXP-postBox = http://hl7.org/fhir/StructureDefinition/iso21090
 Alias: $iso21090-ADXP-streetName = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName
 Alias: $iso21090-ADXP-unitID = http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-unitID
 Alias: $iso21090-SC-coding = http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding
-
-// Remove this comment
